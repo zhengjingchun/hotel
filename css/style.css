@@ -1,0 +1,1102 @@
+﻿html
+{
+    height: 100%;
+}
+body
+{
+    font-family: 'Segoe UI';
+    background-image:url(../image/apic3942.jpg);
+    background-repeat:no-repeat; 
+    background-attachment:fixed;
+    background-size:cover;
+    color:white;
+}
+ul li
+{
+    list-style:none;
+}
+.logo
+{
+    border: none;
+    cursor:pointer;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.button
+{
+    margin-bottom: 20px;
+    min-width: 150px;
+    height:30px;
+    color: white;
+    cursor: pointer;
+    border: 3px solid #336699;
+    background-color: #336699;
+    border-radius: 4px;
+    font-size:small;
+}
+
+.buttonc
+{
+    position:relative;
+    margin-top:10px;
+    padding-left:40px;
+    padding-right:40px;
+    font-size:15px;
+    height:40px;
+    color: white;
+    cursor: pointer;
+    border: 3px solid #336699;
+    background-color: #336699;
+    border-radius: 4px;
+    text-decoration:none;
+}
+.input
+{
+    min-width: 70px;
+    margin-right: 10px;
+    background-color: white;
+    border:1px solid highlight;
+}
+.loginBar
+{
+    width: 100%;
+    height: 20px;
+    background-color:transparent;
+    text-align:right;
+    margin-bottom:10px;
+}
+    .loginBar .label
+    {
+        font-size:xx-small;
+    }
+    .loginBar .input
+    {
+        width: 70px;
+        font-size: x-small;
+        margin-right: 10px;
+        background-color: #F3F3F3;
+        border: none;
+    }
+    .loginBar .signInButton
+    {
+        font-size:x-small;
+        color:white;
+        cursor:pointer;
+        border-style:solid;
+        border-color:#336699;
+        background-color:#336699;
+    }
+     .loginBar .signUpButton
+    {
+        font-size:x-small;
+        color:white;
+        cursor:pointer;
+        border-style:solid;
+        border-color:#CC3333;
+        background-color:#CC3333;
+    }
+.loggedInBar
+{
+    width: 100%;
+    height: 20px;
+    background-color:transparent;
+    text-align:right;
+    margin-bottom:10px;
+}
+    .loggedInBar span
+    {
+        font-size:small;
+    }
+    .loggedInBar .signOutButton
+    {
+        font-size:x-small;
+        color:white;
+        cursor:pointer;
+        border-style:solid;
+        border-color:#336699;
+        background-color:#336699;
+}
+.signUpPanel
+{
+    width: 100%;
+    background-color: transparent;
+    text-align: right;
+}
+    .signUpPanel .label
+    {
+        font-size: xx-small;
+    }
+    .signUpPanel .input
+    {
+        width: 70px;
+        font-size: x-small;
+        margin-right: 10px;
+        background-color: #F3F3F3;
+        border: none;
+    }
+     .signUpPanel .signUpButton
+    {
+        font-size:x-small;
+        color:white;
+        cursor:pointer;
+        border-style:solid;
+        border-color:#CC3333;
+        background-color:#CC3333;
+    height: 18px;
+}
+.mainBox
+{
+    width:900px;
+    height:600px;
+    margin:0 auto;
+    position:relative;
+    top:20px;
+    background-color:rgba(0,0,0,0);
+    overflow:hidden;
+    border-radius:12px;
+}
+
+    .mainBox h1
+    {
+        font-size: xx-large;
+        color: White;
+        text-align: center;
+        line-height: 50px;
+        margin-top: 100px;
+    }
+    .mainBox h2
+    {
+        font-size: large;
+        color: White;
+        text-align: center;
+    }
+    .mainBox .inputBox
+    {
+        width: 600px;
+        height: 200px;
+        margin: 0 auto;
+        position: relative;
+        top: 40px;
+        background-color: rgba(255,255,255,0.5);
+        border-radius: 12px;
+        padding-left: 20px;
+    }
+        .mainBox .inputBox .inputCity
+        {
+            width: 560px;
+            height: 40px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-left:20px;
+            position: relative;
+            font-size: large;
+            border:none;
+            background-color:#F3F3F3;
+            border-radius:8px;
+        }
+        .mainBox .inputBox .datePickerButton
+        {
+            width: 140px;
+            height: 40px;
+            position: relative;
+            font-size: large;
+            cursor: pointer;
+            background:url(../image/date.png) no-repeat center left;
+            border:none;
+            background-color:#F3F3F3;
+            padding-left:40px;
+            border-radius:8px;
+        }
+
+        .mainBox .inputBox .inputElse
+        {
+            width: 140px;
+            height: 40px;
+            position: relative;
+            font-size: large;
+            border:none;
+            background-color:#F3F3F3;
+            border-radius:8px;
+        }
+        .mainBox .inputBox .inputCheckOut
+        {
+            margin-left: 150px;
+            position: relative;
+        }
+        .mainBox .inputBox .serachButton
+        {
+            background:url(../image/search.png) no-repeat center left;
+            padding-left:35px;
+            height: 40px;
+            position: absolute;
+            top: 140px;
+            left: 460px;
+            background-color: #336699;
+            color: White;
+            font-size: large;
+            cursor: pointer;
+            border-style: none;
+            border-radius:4px;
+        }
+
+.mainBody
+{
+    width:1000px;
+    background-color:rgba(255,255,255,0.4);
+    margin:0 auto;
+    position:relative;
+    padding-top:30px;
+    padding-bottom:30px;
+    overflow:hidden;
+}
+    .mainBody .position
+    {
+        margin-bottom:20px;
+        margin-right:20px;
+    }
+        .mainBody .position a
+        {
+            color: white;
+        }
+    .mainBody .searchInfo
+    {
+        padding-top: 30px;
+        padding-bottom:10px;
+        width: 960px;
+        margin: 0 auto;
+        margin-bottom:2px;
+        position: relative;
+        background-color: rgba(255,255,255,0.8);
+        overflow: hidden;
+        color:black;
+        
+    }
+        .mainBody .searchInfo img
+        {
+            position: relative;
+            max-height: 50px;
+            max-width: 50px;
+            margin-left:20px;
+            float:left;
+        }
+        .mainBody .searchInfo span
+        {
+            position: relative;
+            height:30px;
+            float:left;
+            line-height:30px;
+            margin-left:10px;
+        }
+        .mainBody .searchInfo .researchButton
+        {
+            position: relative;
+            background:url(../image/search.png) no-repeat center left;
+            padding-left:40px;
+            margin-right:20px;
+            height: 40px;
+            background-color: #336699;
+            color: White;
+            font-size: large;
+            cursor: pointer;
+            border-style: none;
+            float:right;
+            border-radius:4px;
+        }
+    .mainBody .aside
+    {
+        width:207px;
+        margin-left:20px;
+        float:left;
+        position:relative;
+        background-color:rgba(255,255,255,0.8);
+        color:black;
+    }
+        .mainBody .aside .button
+        {
+            margin-bottom:20px;
+            width:150px;
+            color: white;
+            cursor: pointer;
+            border: 3px solid #336699;
+            background-color: #336699;
+            border-radius: 4px;
+        }
+        .mainBody .aside .detail
+        {
+            width: 180px;
+            margin-left: 10px;
+            margin-bottom:20px;
+            margin-top:20px;
+            position: relative;
+            text-align:left;
+        }
+            .mainBody .aside .detail .title
+            {
+                background:url(../image/header.png) no-repeat center left;
+                padding-left:30px;
+                color:blue;
+                font-size:medium;
+                font-family:'Segoe UI';
+                font-weight:400;
+            }
+            .mainBody .aside .detail span
+            {
+                color:black;
+                font-size:small;
+            }
+            .mainBody .aside .detail .input
+            {
+                color:black;
+                font-size:small;
+                width:130px;
+                height:15px;
+                background-color:#F3F3F3;
+                border:none;
+            }
+            .mainBody .aside .detail .button1
+            {
+
+                font-size: x-small;
+                color: white;
+                cursor: pointer;
+                border:3px solid #336699;
+                background-color: #336699;
+                border-radius:4px;
+            }
+            .mainBody .aside .detail .dropdowmlist
+            {
+                color:black;
+                font-size:small;
+                width:170px;
+                height:20px;
+                background-color:#F3F3F3;
+                border:none;
+            }
+
+            .mainBody .aside .detail .checkline
+            {
+                width:180px;
+                height:25px;
+                border:none;
+                position:relative;
+            }
+            .mainBody .aside .detail .checkbox
+            {
+                color:black;
+                font-size:small;
+                border:none;
+                position:relative;
+                float:left;
+            }
+            .mainBody .aside .detail .label
+            {
+                color:silver;
+                font-size:small;
+                border:none;
+                position:relative;
+                float:right;
+            }
+            .mainBody .aside .detail .star
+            {
+                margin-left:5px;
+                max-height:15px;
+                float:left;
+            }
+            .mainBody .aside .detail .icon
+            {
+                margin-left:5px;
+                margin-right:10px;
+                max-height:20px;
+                float:left;
+            }
+            .mainBody .aside .detail .text
+            {
+                font-size:small;
+                float:left;
+            }
+    .mainBody .result
+    {
+        width:740px;
+        margin-right:20px;
+        float:right;
+        position:relative;
+        background-color:rgba(255,255,255,0.8);
+        padding-left:10px;
+        padding-top:10px;
+        padding-bottom:10px;
+        color:black;
+    }
+        .mainBody .result .reservation
+        {
+            padding-top:10px;
+            padding-left:10px;
+            padding-bottom:10px;
+            padding-right:10px;
+            margin-top:10px;
+            min-height:200px;
+            width:700px;
+
+        }
+
+
+
+        .mainBody .result .head
+        {
+            border: none;
+            position: relative;
+            height:20px;
+        }
+            .mainBody .result .head .summary
+            {
+                font-size: small;
+                border: none;
+                position: relative;
+                float: left;
+            }
+            .mainBody .result .head .sort
+            {
+                margin-right: 20px;
+                font-size: small;
+                background-color: #F3F3F3;
+                border: none;
+                height: 20px;
+                float: right;
+            }
+        .mainBody .result .filters
+        {
+            padding-top:10px;
+            padding-bottom:10px;
+            border: none;
+            position: relative;
+            height:50px;
+        }
+            .mainBody .result .filters .filterbutton
+            {
+                background:#F9CA6F url('../image/close.png') no-repeat right center;
+                margin-right:10px;
+                margin-top:5px;
+                padding-right:20px;
+                height:25px;
+                position: relative;
+                float: left;
+                font-size: x-small;
+                cursor: pointer;
+                border:3px solid #F9CA6F;
+                border-radius:4px;
+    top: 0px;
+    left: 0px;
+}
+        .mainBody .result .resultbox
+        {
+            padding-top:10px;
+            margin-top:10px;
+            height:160px;
+            width:720px;
+            background-color:#F3F3F3;
+        }
+            .mainBody .result .resultbox .img
+            {
+                margin-left:10px;
+                max-height:150px;
+                width:200px;
+                float:left;
+            }
+            .mainBody .result .resultbox .detail
+            {
+                margin-left:10px;
+                width:380px;
+                height:130px;
+                float:left;
+            }
+                .mainBody .result .resultbox .detail .hotelName
+                {
+                    width:380px;
+                    font-size: large;
+                }
+                .mainBody .result .resultbox .detail .hotelAddress
+                {
+                    width:380px;
+                    font-size: medium;
+                }
+                .mainBody .result .resultbox .detail .hotelStar
+                {
+                    margin-top:10px;
+                    width:380px;
+                }
+                    .mainBody .result .resultbox .detail .hotelStar .star
+                    {
+                        margin-left: 5px;
+                        max-height: 15px;
+                        float: left;
+                    }
+            .mainBody .result .resultbox .price
+            {
+                margin-left:10px;
+                width:100px;
+                height:130px;
+                float:left;
+                text-align:center;
+            }
+                .mainBody .result .resultbox .price .cost
+                {
+                    font-size:xx-large;
+                    line-height:50px;
+                }
+                .mainBody .result .resultbox .price .perNight
+                {
+                    font-size:x-small;
+                    margin-bottom:30px;
+                }
+                .mainBody .result .resultbox .price .bookNow
+                {
+                    background-color:#336699;
+                    border:7px solid #336699;
+                    width:100px;
+                    height:30px;
+                    cursor:pointer;
+                    color:white;
+                    font-size:large;
+                    text-decoration:none;
+                    border-radius:4px;
+                }
+    .mainBody .hotel
+    {
+        margin-left: 20px;
+        float:left;
+        width: 100%;
+        height: 100px;
+        position:relative;
+    }
+
+        .mainBody .hotel .name
+        {
+            font-size: x-large;
+            font-family: 'Microsoft YaHei';
+            position:relative;
+            float:left;
+            line-height:20px;
+        }
+
+        .mainBody .hotel span
+        {
+            font-size: small;
+            font-family: 'Microsoft YaHei';
+        }
+    .mainBody .detail1
+    {
+        width:100%;
+        min-height:380px;
+        margin:0 auto;
+        position:relative;
+    }
+
+    .mainBody .detail1 .imgbox
+    {
+        width:430px;
+        margin-left:20px;
+        float:left;
+        position:relative;
+    }
+        .mainBody .detail1 .imgbox img
+        {
+            max-height:320px;
+            width:430px;
+            float:left;
+            position:relative;
+        }
+    .mainBody .detail1 .roomInfo
+    {
+        width:465px;
+        margin-right:20px;
+        float:right;
+        position:relative;
+        background-color: rgba(255,255,255,0.8);
+        color:black;
+        padding-left:20px;
+        padding-top:20px;
+        padding-bottom:20px;
+        padding-right:20px;
+    }
+        .mainBody .detail1 .roomInfo p
+        {
+            line-height:30px;
+        }
+        .mainBody .detail1 .roomInfo .check
+        {
+            font-size: x-small;
+            color: white;
+            cursor: pointer;
+            border-style: solid;
+            border-color: #336699;
+            background-color: #336699;
+        }
+        .mainBody .detail1 .roomInfo .datacheck
+        {
+            width: 220px;
+            height: 40px;
+            position: relative;
+            font-size: large;
+            cursor: pointer;
+            background: url(../image/date.png) no-repeat center left;
+            border: none;
+            background-color: #F3F3F3;
+            padding-left: 40px;
+            border-radius: 8px;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        .mainBody .detail1 .roomInfo .inputElse
+        {
+            width: 220px;
+            height: 40px;
+            position: relative;
+            font-size: large;
+            border: none;
+            background-color: #F3F3F3;
+            border-radius: 8px;
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        .mainBody .detail1 .roomInfo .checkAvailability
+        {
+            width: 450px;
+            height: 40px;
+            margin-top: 20px;
+            font-size: medium;
+            text-align: center;
+            color: white;
+            cursor: pointer;
+            border-style: solid;
+            border-color: #336699;
+            background-color: #336699;
+            border-radius: 8px;
+        }
+        .mainBody .detail1 .roomInfo .chooseARoom
+        {
+            text-align:center;
+            cursor:pointer;
+            text-decoration:none;
+            float: right;
+            height: 25px;
+            font-size:medium;
+            color: white;
+            cursor: pointer;
+            border:solid 4px black;
+            background-color: black;
+            border-radius:4px;
+        }
+        .mainBody .detail1 .roomInfo .inputCheckOut
+        {
+            margin-left: 230px;
+            position: relative;
+        }
+    .mainBody .roomDetail
+    {
+        padding-left:20px;
+        padding-right:20px;
+    }
+        .mainBody .roomDetail .title
+        {
+            width:950px;
+            height:40px;
+            margin-top:20px;
+            padding-top:10px;
+            padding-left:20px;
+            font-size:large;
+            text-align:left;
+            color:white;
+            background-color:#5D7B9D;
+        }
+            .mainBody .roomDetail .title .booknow
+            {
+                float:right;
+                margin-right:20px;
+                border:none;
+                background-color:#CC3333;
+                height:30px;
+                width:100px;
+                color:white;
+                border-radius:6px;
+                cursor:pointer;
+            }
+        .mainBody .roomDetail .item
+        {
+            border-style:none solid solid solid;
+            border-color:silver;
+            width:964px;
+            margin:0 auto;
+            position:relative;
+            background-color:rgba(255,255,255,0.8);
+            color:black;
+        }
+            .mainBody .roomDetail .item .roomtype
+            {
+                margin-top:20px;
+                width:600px;
+                float:left;
+                position:relative;
+            }
+            .mainBody .roomDetail .item .price
+            {
+                float:right;
+            }
+                .mainBody .roomDetail .item .price .pernight
+                {
+                    margin-top:5px;
+                   margin-right:20px;
+                   margin-bottom:10px;
+                }
+                .mainBody .roomDetail .item .price .bookNow
+                {
+                    text-align: center;
+                    cursor: pointer;
+                    text-decoration: none;
+                    float: right;
+                    margin-right:20px;
+                    width:100px;
+                    height: 25px;
+                    font-size: medium;
+                    color: white;
+                    border-style: solid;
+                    border-color: #336699;
+                    background-color: #336699;
+                }
+    .mainBody .information
+    {
+        width:570px;
+        margin-left:20px;
+        float:left;
+        position:relative;
+        background-color: rgba(255,255,255,0.8);
+        color:black;
+        padding:10px 10px 10px 10px;
+    }
+        .mainBody .information .title
+        {
+            height:30px;
+            position:relative;
+        }
+            .mainBody .information .title span
+            {
+                color:#336699;
+                font-size:x-large;
+            }
+            .mainBody .information .title .changeContact
+            {
+                float:right;
+                border:none;
+                color:blue;
+                background-color:transparent;
+                text-decoration:underline;
+                cursor:pointer;
+            }
+        .mainBody .information .informationDetail
+        {
+            border:solid;
+            border-color:silver;
+            border-width:thin;
+            width:96%;
+            margin-top:20px;
+            padding:10px 10px 10px 10px;
+        }
+            .mainBody .information .informationDetail span
+            {
+                font-size:medium;
+            }
+            .mainBody .information .informationDetail .name
+            {
+                height:30px;
+                width:150px;
+                font-size:medium;
+                border:solid;
+                border-color:#336699;
+                border-width:thin;
+                padding-left:10px;
+            }
+            .mainBody .information .informationDetail .textBox
+            {
+                height:30px;
+                border:solid;
+                border-color:#336699;
+                width:500px;
+                border-width:thin;
+                font-size:medium;
+                padding-left:10px;
+            }
+        .mainBody .information .payNow
+        {
+            margin-top:20px;
+            margin-left:20px;
+            text-align:center;
+            cursor:pointer;
+            float: right;
+            height: 40px;
+            min-width:100px;
+            font-size:x-large;
+            color: white;
+            cursor: pointer;
+            border-style: solid;
+            border-color: #336699;
+            background-color: #336699;
+            border-radius:6px;
+        }
+    .mainBody .Order
+    {
+        width:340px;
+        margin-right:20px;
+        float:right;
+        position:relative;
+        background-color: rgba(255,255,255,0.8);
+        color:black;
+        padding-left:5px;
+        padding-right:5px;
+    }
+        .mainBody .Order .orderDetail
+        {
+            background-color:#F3F3F3;
+            padding-left:10px;
+            padding-right:10px;
+            height:400px;
+        }
+            .mainBody .Order .orderDetail h1
+            {
+                text-align: center;
+                font-weight: 300;
+            }
+            .mainBody .Order .orderDetail p.p1
+            {
+                text-align: center;
+                font-weight: 200;
+                font-size: medium;
+            }
+        
+            .mainBody .Order .orderDetail .labelStyle
+            {
+                float:right;
+            }
+            .mainBody .Order .orderDetail .s1
+            {
+                text-align:center;
+                font-weight:300;
+                font-size:medium;
+            }
+            .mainBody .Order .orderDetail .cost
+            {
+                float:right;
+                font-size:xx-large;
+            }
+        .mainBody .Order .hotelDetail
+        {
+            min-height:40px;
+            margin:5px;
+        }
+            .mainBody .Order .hotelDetail img
+            {
+                float: left;
+                max-height: 100px;
+                max-width: 100px;
+            }
+            .mainBody .Order .hotelDetail .hotelName
+            {
+                float:left;
+                height:50px;
+                font-size:large;
+                font-weight:600;
+                position:relative;
+            }
+            .mainBody .Order .hotelDetail .starLevel
+            {
+                margin-top:55px;
+                float:left;
+                height:50px;
+            }
+        .mainBody .Order .check
+        {
+            line-height:10px;
+            font-size:small;
+        }
+    .mainBody .payMethodList
+    {
+        position:relative;
+        width:900px;
+        min-height:400px;
+        margin:0 auto;
+        margin-top:50px;
+        margin-bottom:50px;
+    }
+        .mainBody .payMethodList .payMethod
+        {
+            position:relative;
+            margin-top:20px;
+            margin-left:20px;
+            max-width:150px;
+            border:none;
+        }
+    .mainBody .hotelDescription
+    {
+        margin:20px 20px 20px 20px;
+        padding-top:20px;
+        padding-bottom:20px;
+        background-color:rgba(255,255,255,0.8);
+        color:black;
+    }
+        .mainBody .hotelDescription .title
+        {
+            margin-left:20px;
+            font-size:x-large;
+            font-weight:normal;
+            color:blue;
+        }
+        .mainBody .hotelDescription .hotelDetail
+        {
+            margin-left:20px;
+            width:600px;
+        }
+        .mainBody .hotelDescription .info
+        {
+            padding-top:50px;
+            width:250px;
+            float:right;
+            margin-right:20px;
+            min-height:200px;
+            position:relative;
+        }
+            .mainBody .hotelDescription .info .roomNum
+            {
+                margin-top:20px;
+                background:url(../image/room.png) no-repeat left top;
+                padding-left:50px;
+                line-height:35px;
+            }
+            .mainBody .hotelDescription .info .time
+            {
+                margin-top:20px;
+                background:url(../image/icon_clock_alt.png) no-repeat left top;
+                padding-left:50px;
+                line-height:35px;
+            }
+    .mainBody .Amenities
+    {
+        margin:20px 20px 20px 20px;
+        padding-top:20px;
+        padding-bottom:20px;
+        background-color:rgba(255,255,255,0.8);
+        color:black;
+        min-height:270px;
+    }
+        .mainBody .Amenities .title
+        {
+            margin-left: 20px;
+            margin-bottom:20px;
+            font-size: x-large;
+            font-weight: normal;
+            color: blue;
+        }
+        .mainBody .Amenities .box_available
+        {
+            height:100px;
+            width:180px;
+            text-align:center;
+            float:left;
+        }
+            .mainBody .Amenities .box_available .img
+            {
+                height: 50px;
+                width: 50px;
+                border: none;
+            }
+            .mainBody .Amenities .box_available .text
+            {
+                width: 180px;
+                text-align: center;
+            }
+        .mainBody .Amenities .box_not_available
+        {
+            height: 100px;
+            width: 180px;
+            text-align: center;
+            float: left;
+            opacity:0.3;
+        }
+            .mainBody .Amenities .box_not_available .img
+            {
+                height: 50px;
+                width: 50px;
+                border: none;
+            }
+            .mainBody .Amenities .box_not_available .text
+            {
+                width: 180px;
+                text-align: center;
+            }
+    .mainBody .comment
+    {
+        margin:20px 20px 20px 20px;
+        padding-top:20px;
+        padding-bottom:20px;
+        background-color:rgba(255,255,255,0.8);
+        color:black;
+        min-height:270px;
+        position:relative;
+    }
+        .mainBody .comment .title
+        {
+            margin-left: 20px;
+            margin-bottom: 20px;
+            font-size: x-large;
+            font-weight: normal;
+            color: blue;
+            position:relative;
+        }
+        .mainBody .comment .sum
+        {
+            margin-left: 40px;
+            margin-bottom: 20px;
+            min-width:800px;
+            min-height:70px;
+            position:relative;
+        }
+        .mainBody .comment .content
+        {
+            margin-left: 40px;
+            margin-bottom: 20px;
+            width:800px;
+            position:relative;
+        }
+
+.payButton
+{
+    position:relative;
+    margin-top:200px;
+    width:300px;
+    height:70px;
+    color: white;
+    cursor: pointer;
+    border:none;
+    background-color: #6ce26c;
+    border-radius: 6px;
+    font-size:x-large;
+}
+.cancelButton
+{
+    position:relative;
+    margin-top:50px;
+    width:300px;
+    height:70px;
+    color: white;
+    cursor: pointer;
+    border:none;
+    background-color:darkred;
+    border-radius: 6px;
+    font-size:x-large;
+}
+
+
+
+.reveal-modal-bg{position:fixed;height:100%;width:100%;background-color:#000;z-index:100;display:none;top:0;left:0;}
+.reveal-modal{visibility:hidden;top:100px;left:50%;margin-left:-300px;width:420px;background:#eee url(modal-gloss.png) no-repeat -200px -80px;position:absolute;z-index:101;padding:30px 40px 34px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;-moz-box-shadow:0 0 10px rgba(0,0,0,.4);-webkit-box-shadow:0 0 10px rgba(0,0,0,.4);-box-shadow:0 0 10px rgba(0,0,0,.4);}
+.reveal-modal .close-reveal-modal {
+font-size:22px;line-height:.5;position:absolute;top:8px;right:11px;color:#aaa;text-shadow:0 -1px 1px rbga(0,0,0,.6);font-weight:bold;cursor:pointer;} 
+.reveal-modal h2{font-size:18px;color:#990000;padding:0 0 20px 0;}
+.reveal-modal p{padding:0 0 15px 0;}
